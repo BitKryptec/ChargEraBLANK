@@ -1,0 +1,50 @@
+[
+    {
+        "id": "vleucuze76fTD",
+        "title": "Duosida 11 kW - type 2 - 5 mètres - wallbox reconditionnée",
+        "image": "charger.jpg",
+        "description" : "Cette borne de recharge Duosida possède une puissance de charge de 11 kW . Elle a un branchement de type 2. et 8 mètres de câble de charge. Elle est adaptée à une connexion électrique triphasée et de 16 ampères. Ceci est une wallbox reconditionnée.",
+        "price": 445.29,
+        "provider": "Besen",
+        "link": "https://www.wallboxdiscounter.com/fr/besen-37-11-kw-triphase-16a-type-2-6-metres-borne.html",
+        "type": "Type 2",
+        "ampere_phase" : "16 A", 
+        "charge_max" : "11 KW"
+    },
+    {
+        "id": "vleucuze76fTD",
+        "title": "Duosida 11 kW - type 2 - 5 mètres - wallbox reconditionnée",
+        "image": "charger.jpg",
+        "description" : "Cette borne de recharge Duosida possède une puissance de charge de 11 kW . Elle a un branchement de type 2. et 8 mètres de câble de charge. Elle est adaptée à une connexion électrique triphasée et de 16 ampères. Ceci est une wallbox reconditionnée.",
+        "price": 445.29,
+        "provider": "Besen",
+        "link": "https://www.wallboxdiscounter.com/fr/besen-37-11-kw-triphase-16a-type-2-6-metres-borne.html",
+        "type": "Type 2",
+        "ampere_phase" : "16 A", 
+        "charge_max" : "11 KW"
+    },
+    {
+        "id": "vleucuze76fTD",
+        "title": "Duosida 11 kW - type 2 - 5 mètres - wallbox reconditionnée",
+        "image": "charger.jpg",
+        "description" : "Cette borne de recharge Duosida possède une puissance de charge de 11 kW . Elle a un branchement de type 2. et 8 mètres de câble de charge. Elle est adaptée à une connexion électrique triphasée et de 16 ampères. Ceci est une wallbox reconditionnée.",
+        "price": 445.29,
+        "provider": "Besen",
+        "link": "https://www.wallboxdiscounter.com/fr/besen-37-11-kw-triphase-16a-type-2-6-metres-borne.html",
+        "type": "Type 2",
+        "ampere_phase" : "16 A", 
+        "charge_max" : "11 KW"
+    },
+    {
+        "id": "vleucuze76fTD",
+        "title": "Duosida 11 kW - type 2 - 5 mètres - wallbox reconditionnée",
+        "image": "charger.jpg",
+        "description" : "Cette borne de recharge Duosida possède une puissance de charge de 11 kW . Elle a un branchement de type 2. et 8 mètres de câble de charge. Elle est adaptée à une connexion électrique triphasée et de 16 ampères. Ceci est une wallbox reconditionnée.",
+        "price": 445.29,
+        "provider": "Besen",
+        "link": "https://www.wallboxdiscounter.com/fr/besen-37-11-kw-triphase-16a-type-2-6-metres-borne.html",
+        "type": "Type 2",
+        "ampere_phase" : "16 A", 
+        "charge_max" : "11 KW"
+    }
+]

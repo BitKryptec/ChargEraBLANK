@@ -1,0 +1,27 @@
+version: 1
+frontend:
+  phases:
+    preBuild:
+      commands:
+        - node -v
+        - npm -v
+        - nvm use $VERSION_NODE_18
+        - node -v
+        - npm -v
+        - npm ci
+    build:
+      commands:
+        - IMC_DEFAULT_REGION=${IMC_DEFAULT_REGION}
+        - NEXT_PUBLIC_SITE_URL=${NEXT_PUBLIC_SITE_URL}
+        - GA_TRACKING_ID=${GA_TRACKING_ID}
+        - echo "IMC_DEFAULT_REGION=$IMC_DEFAULT_REGION" >> .env
+        - echo "NEXT_PUBLIC_SITE_URL=$NEXT_PUBLIC_SITE_URL" >> .env
+        - echo "GA_TRACKING_ID=$GA_TRACKING_ID" >> .env
+        - npm run build
+  artifacts:
+    baseDirectory: .next
+    files:
+      - '**/*'
+  cache:
+    paths:
+      - node_modules/**/*
