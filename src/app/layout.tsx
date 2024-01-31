@@ -13,6 +13,10 @@ export const metadata: Metadata = {
   description: 'ChargEra: Revolutionizing the EV charging experience with peer-to-peer solutions. Find, share, and monetize your charging stations with us. Join the EV revolution today!',
   keywords: ['EV charging', 'peer-to-peer charging', 'electric vehicle', 'charging stations', 'sustainable transport', 'green energy', 'ChargEra' ],
 
+  other: {
+    'google-adsense-account': 'ca-pub-2338681498281829',
+  },
+
   generator: 'ChargEra',
   applicationName: 'ChargEra',
   referrer: 'origin-when-cross-origin',
@@ -131,7 +135,10 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <GoogleAnalytics GA_TRACKING_ID={process.env.GA_TRACKING_ID} />
+      <head>
+        <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2338681498281829" crossOrigin="anonymous"></script>
+      </head>
+      {/* <GoogleAnalytics GA_TRACKING_ID={process.env.GA_TRACKING_ID} /> */}
       <body className={inter.className}>{children}</body>
     </html>
   )
