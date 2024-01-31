@@ -9,8 +9,8 @@ const inter = Inter({ subsets: ['latin'] })
 export const metadata: Metadata = {
   metadataBase: new URL( process.env.NEXT_PUBLIC_SITE_URL || "http://localhost:3000" ),
 
-  title: 'ChargEra | Peer to peer EV charging provider',
-  description: 'ChargEra: Revolutionizing the EV charging experience with peer-to-peer solutions. Find, share, and monetize your charging stations with us. Join the EV revolution today!',
+  title: 'ChargEra | Bornes de recharge pour Véhicules Electriques',
+  description: 'Chez ChargEra, nous sommes passionnés par la promotion du changement positif dans le domaine de la mobilité durable. Notre aventure a commencé avec une idée simple mais puissante : rendre la recharge des véhicules électriques plus accessible, abordable et respectueuse de l&apos;environnement.',
   keywords: ['EV charging', 'peer-to-peer charging', 'electric vehicle', 'charging stations', 'sustainable transport', 'green energy', 'ChargEra' ],
 
   other: {
@@ -31,8 +31,8 @@ export const metadata: Metadata = {
 
   twitter: {
     card: 'summary_large_image',
-    title: 'ChargEra | Peer to peer EV charging provider',
-    description: 'Revolutionizing the EV charging experience with peer-to-peer solutions. Find, share, and monetize your charging stations with us. Join the EV revolution today!',
+    title: 'ChargEra | Bornes de recharge pour Véhicules Electriques',
+    description: 'Chez ChargEra, nous sommes passionnés par la promotion du changement positif dans le domaine de la mobilité durable. Notre aventure a commencé avec une idée simple mais puissante : rendre la recharge des véhicules électriques plus accessible, abordable et respectueuse de l&apos;environnement.',
     /* siteId: '1467726470533754880',*/
     creator: '@chargera',
     /* creatorId: '1467726470533754880',*/
@@ -40,8 +40,8 @@ export const metadata: Metadata = {
   },
 
   openGraph: {
-    title: 'ChargEra | Peer to peer EV charging provider',
-    description: 'Revolutionizing the EV charging experience with peer-to-peer solutions. Find, share, and monetize your charging stations with us. Join the EV revolution today!',
+    title: 'ChargEra | Bornes de recharge pour Véhicules Electriques',
+    description: 'Chez ChargEra, nous sommes passionnés par la promotion du changement positif dans le domaine de la mobilité durable. Notre aventure a commencé avec une idée simple mais puissante : rendre la recharge des véhicules électriques plus accessible, abordable et respectueuse de l&apos;environnement.',
     url: '/',
     siteName: 'ChargEra',
     images: [
@@ -92,13 +92,11 @@ export const metadata: Metadata = {
   },
   */
 
-  /*
   viewport: {
     width: 'device-width',
     initialScale: 1,
     maximumScale: 1,
   },
-  */
 
   /*
   verification: {
@@ -137,8 +135,8 @@ export default function RootLayout({
     <html lang="en">
       <head>
         <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2338681498281829" crossOrigin="anonymous"></script>
+        {/* <GoogleAnalytics GA_TRACKING_ID={process.env.GA_TRACKING_ID} /> */}
       </head>
-      {/* <GoogleAnalytics GA_TRACKING_ID={process.env.GA_TRACKING_ID} /> */}
       <body className={inter.className}>{children}</body>
     </html>
   )
