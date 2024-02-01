@@ -75,22 +75,47 @@ export const metadata: Metadata = {
     },
   },
 
-  icons:{
-    icon: '/favicon.ico',
-    apple: '/apple-icon.png',
-  },
+  // manifest: 'https://chargera.fr/site.webmanifest',
 
-  /*
-  icons: {
-    icon: '/icon.png',
-    shortcut: '/shortcut-icon.png',
+  icons:{
+    // icon: '/icon.svg',
+    shortcut: '/icon-bg.png',
     apple: '/apple-icon.png',
-    other: {
-      rel: 'apple-touch-icon-precomposed',
-      url: '/apple-touch-icon-precomposed.png',
-    },
+    other: [
+      {
+        rel: 'icon',
+        url: '/icon.svg',
+        type: 'image/svg+xml',
+        media: '(prefers-color-scheme: light)'
+      },
+      {
+        rel: 'icon',
+        url: '/icon-dark.svg',
+        type: 'image/svg+xml',
+        media: '(prefers-color-scheme: dark)'
+      },
+
+      {
+        rel: 'icon',
+        url: '/favicon-16x16.png',
+        sizes: '16x16',
+        type: 'image/png'
+      },
+      {
+        rel: 'icon',
+        url: '/favicon-32x32.png',
+        sizes: '32x32',
+        type: 'image/png'
+      },
+      
+      {
+        rel: 'apple-touch-icon',
+        url: '/apple-touch-icon-180x180.png',
+        sizes: '180x180',
+        type: 'image/png'
+      },
+    ],
   },
-  */
 
   viewport: {
     width: 'device-width',
